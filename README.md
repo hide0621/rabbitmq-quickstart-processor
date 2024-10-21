@@ -4,6 +4,14 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
 
+# このアプリの作成方法
+
+以下のコマンドを使用
+
+`quarkus create app org.acme:rabbitmq-quickstart-processor \
+--extension='messaging-rabbitmq' \
+--no-code --kotlin --gradle`
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
